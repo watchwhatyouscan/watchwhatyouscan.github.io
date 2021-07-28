@@ -21,6 +21,9 @@
         padding: 0;
         margin: 0;
         }
+        li{
+          margin: 10px 0;
+        }
         input,
         textarea,header {
           /* To make sure that all text fields have the same font settings
@@ -33,6 +36,10 @@
 
           /* Match form field borders */
           border: 1px solid #999;
+          /*height:20px;*/
+          border-radius: 0px;
+          /*font-size:13pt;*/
+          outline: none;
         }
 
         input:focus,
@@ -68,13 +75,13 @@
         }*/
       </style>
   </head>
-  <body>
+  <body style="background-color:#e8e7e5;">
   <h2><font face="Helvetica">Kontaktformular</font></h2>
 <hr />
 <ul style="list-style: none;">
-<li><!--label for="name">Vorname</label--> <input id="name" name="user_name" size="43" type="text" placeholder="Vorname" /></li>
+<li><!--label for="name">Vorname</label--> <input id="name" name="user_name" size="40" type="text" placeholder="Vorname" style="float: center;"/></li>
 <li></li>
-<li><input id="name" name="user_name" size="43" type="text" placeholder="Nachname" /></li>
+<li><input id="name" name="user_name" size="40" type="text" placeholder="Nachname" /></li>
 <li></li>
 <li></li>
 <li><input id="name" name="user_name" type="text" placeholder="Stra&szlig;e" />&nbsp;&nbsp;<input id="name" name="user_name" type="text" placeholder="Hausnummer" /></li>
@@ -82,9 +89,9 @@
 <li><input id="name" name="user_name" type="text" placeholder="Stadt" />&nbsp;&nbsp;<input id="name" name="user_name" type="text" placeholder="PLZ" /></li>
 <li></li>
 <li></li>
-<li><input id="name" name="user_name" size="43" type="text" placeholder="Mobilnummer" /></li>
+<li><input id="name" name="user_name" size="40" type="text" placeholder="Mobilnummer" /></li>
 <li></li>
-<li><input id="name" name="user_name" size="43" type="email" placeholder="Emailadresse" /></li>
+<li><input id="name" name="user_name" size="40" type="email" placeholder="Emailadresse" /></li>
 <li></li>
 <!--li><input type="checkbox" /> <label for="datenschutz">Ich bin mit der <span style="text-decoration: underline; color: #3366ff;">Datenschutzvereinbarung</span> einverstanden</label></li>
 <li><button type="submit">Speichern</button></li-->
@@ -93,7 +100,7 @@
 
 
 
-<button onclick="location.href='http://www.example.com'" type=".button" style="float: right;">
+<button onclick="location.href='https://youtu.be/HqDcexY2Dl0'" type=".button" style="float: right;">
          Speichern</button>
 </ul>
 <!--p style="font-size: 1.5em;">You can <strong style="background-color: #317399; padding: 0 5px; color: #fff;">type your text</strong> directly in the editor or paste it from a Word Doc, PDF, Excel etc.</p-->
